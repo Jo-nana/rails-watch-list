@@ -1,0 +1,7 @@
+<h1>Create a new movie list!</h1>
+
+<%= simple_form_for(@list) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.submit "New list", class: "btn btn-primary"%>
+<% end %>
