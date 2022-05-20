@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   # Display the lists
   root to: 'lists#index'
   # Display what's inside a list
-  resources :lists, only: [ :show, :new, :create ] do
+  resources :lists, only: [ :show, :new, :create, :destroy ] do
     # create and delete new bookmarks
-    resources :bookmarks, only: [:new, :create, :destroy ]
+    resources :bookmarks, only: [:new, :create ]
   end
 end

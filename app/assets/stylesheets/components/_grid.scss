@@ -1,0 +1,34 @@
+.list-grid{
+  width: 90vw;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.movies-grid{
+  width: 90vw;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+
+@media(max-width: 992px) {
+  .list-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .list-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 992px) {
+  .movies-grid {
+    grid-template-columns: 1fr;
+  }
+}
