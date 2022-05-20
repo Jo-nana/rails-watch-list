@@ -1,0 +1,14 @@
+.btn-ghost {
+    color: #ffffff;
+    border: 1px solid #fffdfd;
+    padding: 8px 24px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+  &:hover {
+    color: #ffffff;
+    box-shadow: 2px 2px 15px rgb(125, 245, 247);
+  }
+}
